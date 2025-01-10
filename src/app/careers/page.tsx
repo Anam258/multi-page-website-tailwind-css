@@ -81,7 +81,7 @@ const Careers = () => {
             <textarea
               placeholder="Why are you a good fit for this role?"
               className="border p-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all"
-              rows="4"
+              rows={4}
               required
             ></textarea>
             <button className="px-6 py-3 bg-green-600 text-white rounded-md hover:bg-green-700 transition-all">
